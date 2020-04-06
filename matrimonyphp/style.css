@@ -1,0 +1,274 @@
+
+
+.form-container {
+    background: #f1ecdf;
+    border: #e2ddd2 1px solid;
+    padding: 20px;
+    border-radius: 2px;
+    width:97%;
+    height:450px;
+}
+
+.input-row {
+    margin-bottom: 20px;
+
+}
+
+.input-row label {
+    color: #75726c;
+}
+form{
+    float: left;
+}
+.input-field {
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.span-field {
+    font: Arial;
+    font-size: small;
+    text-decoration: none;
+}
+
+.btn-submit {
+    padding: 10px 60px;
+    background: #9e9a91;
+    border: #8c8880 1px solid;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.successMessage {
+    background-color: #9fd2a1;
+    border: #91bf93 1px solid;
+    padding: 5px 10px;
+    color: #3d503d;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.info {
+    font-size: .8em;
+    color: #e66262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+body{
+    width:none;
+}
+.div1{
+    width:98.5%;
+    height:40px;
+    padding:10px;
+    background-image:url('images/bg.jpg');
+
+
+}
+.div1 a{
+    text-decoration:none;
+    color:black;
+    font-size:30px;
+    margin:20px;
+}
+.div2{
+    float:left;
+}
+.div3{
+    float:right;
+}
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size:120px;
+font-family:sanserif;
+}
+.foot2
+{ 
+float: right;
+width: 50%;
+padding: 30px;
+color:black;
+}
+.social a{
+border: 2px solid white;
+border-radius: 80%;
+font-size: 15px;
+padding: 10px;
+margin: 5px;
+text-decoration:none;
+}
+body{
+    margin: auto;
+    width: 99.7%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: -webkit-linear-gradient(top,aqua,blue);
+}
+.logo{
+    font-size: 50px;
+    padding: 5px;
+    padding-right: 70px;
+    text-decoration-style: none;
+    float: right;
+    color: black;
+}
+.menu{
+    height: 70px;
+    float: left;
+   
+}
+ul li a{ 
+  font-size: 20px;
+   display: block;
+   padding-bottom: 5px;padding-top: 5px;
+   padding-left: 10px;padding-right: 10px;
+   color: blanchedalmond;
+}
+ul li{
+    float: left;
+    margin:5px;
+    border-radius: 10%;
+    list-style: none;
+}
+ul li:hover{
+    background: yellow;
+}
+ul li a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+
+.courses ul{
+    position: absolute;
+    visibility: hidden;
+    width:120px;
+    background: -webkit-linear-gradient(left,aqua,blue);
+    border-radius: 5%;
+    align-self: auto;
+    
+}
+
+.courses:hover ul{
+     visibility: visible;
+}
+#form-container{
+  padding: 10px 30px;
+    border-radius: 4px;
+    background: #f7f7f7;
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #dbdbdb;
+}
+#google-button-container{
+  background: #fff;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px 10px;
+    margin: 15px 0 5px;
+}
+.ortext{
+  color: #999;
+    width: 40px;
+    margin: 0 auto!important;
+    position: relative;
+    z-index: 10;
+    background: #f7f7f7;
+}
+.control-label{
+  font-family: helvetica;
+  font-size: 14px;
+    margin-bottom: 5px!important;
+    font-weight: 600;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+}
+#forget_password {
+    color: ;
+    text-decoration: underline;
+    cursor: pointer!important;
+    pointer-events: all;
+}
+
+#login_submit {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+}
+.login{
+    width: 500px;
+    height: 400px;
+    background: gray;
+    border: 5px solid black;
+    margin: 80px 400px;
+    border-radius: 5%;
+}
+.avatarimg{
+    background: honeydew;
+    border-radius: 50%;
+    margin-left: 200px;
+    border: 2px solid black;
+}
+.Email{
+    font-size: 20px;
+
+}
