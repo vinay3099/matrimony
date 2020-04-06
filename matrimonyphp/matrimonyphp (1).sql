@@ -61,7 +61,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `profilestat`, `username`, `password`, `email`, `mobile`, `salary`, `job`, `image`, `dateofbirth`, `gender`, `userlevel`) VALUES
-(1, 0, 'vinay', '1234', 'vinay@gmail.com', '7712345691', '45000', 'Software Engineer', 'Screenshot (101).png', '1998-04-01', 'male', 0),
+(1, 0, 'vinay', '1234', 'vinay@gmail.com', '7712345691', '50000', 'Software Engineer', 'Screenshot (101).png', '1998-04-01', 'male', 0),
 (3, 0, 'cherry', '12345', 'cherry459@gmail.com', '7730844681', '50000', 'software Engineer', 'Screenshot (103).png', '2000-06-08', 'male', 0),
 (4, 0, 'Anu', '123456', 'anu@gmail.com', '9781235463', '35000', 'teacher', 'gr1.jpg', '1999-08-12', 'female', 0),
 (6, 0, 'shreya', '12345', 'shreya12@gmail.com', '7842136213', '50000', 'Doctor', 'shreya.jpg', '1998-06-18', 'female', 0);
